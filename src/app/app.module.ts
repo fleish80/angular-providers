@@ -12,7 +12,7 @@ import { JustUseModule } from './just-use/just-use.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    JustUseModule
+    // JustUseModule
   ],
   providers: [],
   bootstrap: [AppComponent]
