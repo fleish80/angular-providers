@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { JustUseService } from './just-use.service';
 
 @Component({
   selector: 'app-just-use',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class JustUseComponent implements OnInit {
 
-  constructor() { }
+  constructor(private justUseService: JustUseService) { }
+
+  text = 'From component';
 
   ngOnInit() {
+    this.text = this.justUseService.getText();
   }
 
 }

@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { JustUseComponent } from './just-use.component';
+import { UseClassComponent } from './use-class.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: JustUseComponent,
+    component: UseClassComponent,
     pathMatch: 'full'
   }
 ];
@@ -18,4 +18,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class JustRouteRoutingModule { }
+export class UseClassRoutingModule { }

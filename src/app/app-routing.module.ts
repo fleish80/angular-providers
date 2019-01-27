@@ -11,6 +11,10 @@ const routes: Routes = [
     path: 'just-use',
     loadChildren: './just-use/just-use.module#JustUseModule',
   },
+  {
+    path: 'use-class',
+    loadChildren: './use-class/use-class.module#UseClassModule',
+  },
 ];
 
 @NgModule({
