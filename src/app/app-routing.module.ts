@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'use-factory',
     loadChildren: './use-factory/use-factory.module#UseFactoryModule',
   },
+  {
+    path: 'use-value',
+    loadChildren: './use-value/use-value.module#UseValueModule',
+  },
 ];
 
 @NgModule({

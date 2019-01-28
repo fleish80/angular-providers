@@ -1,9 +1,11 @@
 import { Injectable } from '@angular/core';
-import { UseFactoryUsedService } from './use-factory-used.service';
+import { useFactoryMethod } from './use-factory-method';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root',
-  useClass: UseFactoryUsedService
+  useFactory: useFactoryMethod,
+  deps: [HttpClient]
 })
 export class UseFactoryOriginalService {
 

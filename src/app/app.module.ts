@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { JustUseModule } from './just-use/just-use.module';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -12,9 +13,8 @@ import { JustUseModule } from './just-use/just-use.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // JustUseModule
+    HttpClientModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
