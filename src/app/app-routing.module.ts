@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'use-class',
     loadChildren: './use-class/use-class.module#UseClassModule',
   },
+  {
+    path: 'use-factory',
+    loadChildren: './use-factory/use-factory.module#UseFactoryModule',
+  },
 ];
 
 @NgModule({

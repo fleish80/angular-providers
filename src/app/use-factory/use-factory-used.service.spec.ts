@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { UseClassUsedService } from './use-factory-used.service';
+import { UseFactoryUsedService } from './use-factory-used.service';
 
-describe('UseClassUsedService', () => {
+describe('UseFactoryUsedService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: UseClassUsedService = TestBed.get(UseClassUsedService);
+    const service: UseFactoryUsedService = TestBed.get(UseFactoryUsedService);
     expect(service).toBeTruthy();
   });
 });

@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UseClassComponent } from './use-factory.component';
+import { UseFactoryComponent } from './use-factory.component';
 
-describe('UseClassComponent', () => {
-  let component: UseClassComponent;
-  let fixture: ComponentFixture<UseClassComponent>;
+describe('UseFactoryComponent', () => {
+  let component: UseFactoryComponent;
+  let fixture: ComponentFixture<UseFactoryComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ UseClassComponent ]
+      declarations: [ UseFactoryComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(UseClassComponent);
+    fixture = TestBed.createComponent(UseFactoryComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

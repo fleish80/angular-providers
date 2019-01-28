@@ -1,10 +1,14 @@
+import { UseFactoryRoutingModule } from './use-factory-routing.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { UseFactoryComponent } from './use-factory.component';
+
 
 @NgModule({
-  declarations: [],
+  declarations: [UseFactoryComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    UseFactoryRoutingModule
   ]
 })
 export class UseFactoryModule { }

@@ -1,15 +1,15 @@
 import { Injectable } from '@angular/core';
-import { UseClassUsedService } from './use-factory-used.service';
+import { UseFactoryUsedService } from './use-factory-used.service';
 
 @Injectable({
   providedIn: 'root',
-  useClass: UseClassUsedService
+  useClass: UseFactoryUsedService
 })
-export class UseClassOriginalService {
+export class UseFactoryOriginalService {
 
   constructor() { }
 
   getText() {
-    return 'Hello Form UseClassOriginal Service';
+    return 'Hello Form UseFactoryOriginal Service';
   }
 }

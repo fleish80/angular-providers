@@ -3,11 +3,11 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class UseClassUsedService {
+export class UseFactoryUsedService {
 
   constructor() { }
 
   getText() {
-    return 'Hello Form UseClassUsed Service';
+    return 'Hello Form UseFactoryUsed Service';
   }
 }

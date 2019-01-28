@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { UseClassComponent } from './use-factory.component';
+import { UseFactoryComponent } from './use-factory.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: UseClassComponent,
+    component: UseFactoryComponent,
     pathMatch: 'full'
   }
 ];
@@ -18,4 +18,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class UseClassRoutingModule { }
+export class UseFactoryRoutingModule { }
